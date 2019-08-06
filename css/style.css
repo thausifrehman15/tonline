@@ -1,11 +1,4 @@
-/* ==========================================================================
-Theme Name: Mendy
-Theme URI: http://mannatstudio.com
-Description:  Mendy: Personal Resume Template
-Version: 1.0
-Author: Mannat Studio
-Tags: business, color skins, corporate, css3, digital, flat, layered psd, modern, parallax, photoshop, shopping cart
-========================================================================== */
+
 html, body {
   height: 100%;
 }
@@ -2044,4 +2037,45 @@ ul.color-scheme li a.violet-red {background: #F23A65;}
       font-size:13px;
       margin-top:10px;
       font-weight:700;
+}
+
+
+
+
+
+
+.typewriter {
+    font-family: Courier, monospace;
+	display: inline-block;
+}
+
+.typewriter-text {
+
+    display: inline-block;
+  	overflow: hidden;
+  	letter-spacing: 2px;
+ 	animation: typing 4s steps(30, end), blink .75s step-end infinite;
+    white-space: nowrap;
+    font-size: 30px;
+    font-weight: 700;
+    border-right: 4px solid orange;
+    box-sizing: border-box;
+}
+
+@keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+}
+
+@keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
 }
